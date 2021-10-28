@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { ReactComponent as ArrowLeft } from '../assets/chevron-left.svg'
 import Header from '../components/Header'
 import male from '../assets/male.png'
 import female from '../assets/female.png'
@@ -7,7 +6,6 @@ import userFullName from '../assets/first-name.png'
 import phoneNumber from '../assets/phone-number.png'
 import gender from '../assets/gender.png'
 import email from '../assets/email.png'
-import AddButton from '../components/AddButton'
 
 const ViewPage = ({ match, history }) => {
 
